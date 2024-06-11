@@ -165,3 +165,39 @@ section.desafio-problema .flex{
     width: 600px;
 }
 
+/* ExXPLICAÇÃO SOLUÇÃO */
+
+section.desafio-soluçao{
+    padding: 80px 5%;
+    background-image: linear-gradient(to bottom right, #969696, #b61b1b);
+}
+
+section.desafio-soluçao .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.txt-soluçao h2{
+    font-size: 30px;
+    font-family: "Playpen Sans", cursive;
+    text-align: center;
+}
+
+.txt-soluçao p{
+    font-size: 20px;
+    width: 400px;
+    font-family: "Playpen Sans", cursive;
+    text-align: justify;
+    margin-top: 30px;
+}
+
+.txt-soluçao p a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #e00606;
+}
+
+.img-soluçao img{
+    width: 600px;
+}

@@ -372,3 +372,65 @@ iframe#iframe::-webkit-scrollbar {
     display: none;
 }
 
+/* ESTILO DO RODAPÉ */
+
+footer{
+    padding: 60px 5%;
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(171,0,0,1) 100%);
+    box-shadow: 0 0 40px 10px #ffffff1a;
+}
+
+footer .flex{
+    justify-content: space-between;
+}
+
+footer .logo-footer{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+footer .logo-footer a{
+    color: #002f5a;
+    text-decoration: none;
+}
+
+footer .logo-footer span{
+    color: #fff;
+}
+
+footer .logo-footer p{
+    color: #fff;
+    font-size: 1rem;
+    margin-top: 20px;
+}
+
+footer .logo-footer img{
+    width: 200px;
+}
+
+footer .links-uteis h3{
+    color: #fff;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+footer .links-uteis ul li{
+    list-style: none;
+    font-size: 14px;
+}
+footer .line-footer{
+    padding: 20px 0;
+}
+
+.borda{
+    border-top: 2px solid #ffffff;
+}
+footer .line-footer p i{
+    color: #ffffff;
+    font-size: 22px;
+}
+
+footer .line-footer p a{
+    color: #fff;
+    text-decoration: none;
+}

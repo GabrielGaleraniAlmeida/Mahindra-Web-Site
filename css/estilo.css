@@ -132,3 +132,36 @@ header > .interface{
     display: none;
 }
 
+* EXPLICAÇÃO PROBLEMA */
+
+section.desafio-problema{
+    padding: 80px 5%;
+    background-image: linear-gradient(to bottom right, #353535, #dddddd);
+}
+
+section.desafio-problema .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+
+.txt-problema h2{
+    font-size: 30px;
+    font-family: "Playpen Sans", cursive;
+    text-align: center;
+    
+}
+
+.txt-problema p{
+    font-size: 20px;
+    width: 400px;
+    font-family: "Playpen Sans", cursive;
+    text-align: justify;
+    margin-top: 30px;
+}
+
+.img-problema img{
+    width: 600px;
+}
+

@@ -1,0 +1,70 @@
+/* ESTILO GERAL */
+
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&display=swap');
+    *{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Playpen Sans", cursive;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+}
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+}
+
+header{
+    background-image: linear-gradient(to right, #fff, #c7c7c7);
+}
+
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    background-image: linear-gradient(to right, #e00606, #ffffff);
+    width: 700px;
+    height: 100px;
+    border-radius: 0 0px 150px 0px;
+    display: flex;
+    padding: 0px 3%;
+}
+
+#logo1{
+    width: 200px;
+    height: 50px;
+    margin-top: 25px;
+}
+
+.logo h1{
+    margin: 30px;
+    font-weight: 500;
+}
+
+#logo2{
+    margin-top: 0px;
+    width: 280px;
+}
+
+.login{
+    display: flex;
+    margin-left: 200px;
+}
+
+.login a{
+    text-decoration: none;
+    color: #e00606;
+    margin: 10px;
+    font-family: "Playpen Sans", cursive;
+    
+}
